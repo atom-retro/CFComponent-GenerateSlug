@@ -32,7 +32,7 @@ component {
 
 		this.str = reReplace(
 			this.str, 
-			"[^a-zA-Z0-9!]", "", "ALL"
+			"[^a-zA-Z0-9!]", "", "all"
 		);
 		
 		this.str = trim(reReplace(
